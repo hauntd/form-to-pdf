@@ -1,0 +1,45 @@
+.col-3 {
+  width: 33.33%;
+}
+.col-4 {
+  width: 25%;
+}
+.clearfix {
+  zoom: 1;
+  clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Tahoma;
+}
+.group {
+  margin-bottom: 15px;
+}
+.group .group-title {
+  font-size: 18px;
+  color: #31708f;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.group .label,
+.group .value {
+  margin-right: 10px;
+}
+.group .label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.group .value {
+  color: #444;
+}
+.group table {
+  width: 100%;
+}

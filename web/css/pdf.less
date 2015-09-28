@@ -1,0 +1,38 @@
+.col-3 {
+  width: 33.33%;
+}
+.col-4 {
+  width: 25%;
+}
+.clearfix{
+  zoom:1;
+  clear: both;
+  &:before, &:after{ content:""; display:table; }
+  &:after{ clear: both; }
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Tahoma;
+}
+.group {
+  margin-bottom: 15px;
+  .group-title {
+    font-size: 18px;
+    color: #31708f;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  .label, .value {
+    margin-right: 10px;
+  }
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .value {
+    color: #444;
+  }
+  table {
+    width: 100%;
+  }
+}
