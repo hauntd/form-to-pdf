@@ -13,3 +13,7 @@ body {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+.form-wrapper h3 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
